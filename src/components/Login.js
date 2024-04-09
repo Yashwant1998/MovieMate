@@ -62,7 +62,6 @@ export const Login = () => {
         password.current.value
       )
         .then((userCredential) => {
-          console.log(userCredential);
           const { uid, displayName, email } = auth.currentUser;
           dispatch(addUser({ id: uid, email: email, name: displayName }));
         })

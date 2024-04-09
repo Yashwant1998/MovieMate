@@ -60,10 +60,11 @@ export const Header = () => {
   };
 
   return (
-    <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
+    // <div className="bg-gradient-to-b from-black absolute w-full z-50 flex justify-between overflow-hidden items-center lg:px-10 md:px-10 sm:px-8 px-4">
+    <div className="absolute w-full px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
       <Link to={"/browse"}>
         <img
-          className="lg:w-48 sm:w-28 w-20 md:w-40   md:py-6 py-4 lg:py-6"
+          className="lg:w-48 sm:w-28 w-20 md:w-40  md:py-6 py-4 lg:py-6"
           src={Logo}
           alt="logo"></img>
       </Link>

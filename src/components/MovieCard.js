@@ -12,7 +12,11 @@ const MovieCard = ({ posterPath, movie }) => {
 
   return (
     <div className="w-36 md:w-48 pr-4" onClick={handleNavigation}>
-      <img alt="Movie Card" src={IMG_CDN + posterPath} />
+      <img
+        className=" rounded-lg"
+        alt="Movie Card"
+        src={IMG_CDN + posterPath}
+      />
     </div>
   );
 };

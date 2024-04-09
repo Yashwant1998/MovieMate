@@ -5,7 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
-    <footer class="bg-black p-5 text-white font-bold grid text-center content-center h-20 rounded">
+    <footer className="bg-black p-5 text-white font-bold grid text-center content-center h-20 rounded">
       <div>
         <p> Made with ❤ by Yashwant Kumar ! </p>
         <p>
